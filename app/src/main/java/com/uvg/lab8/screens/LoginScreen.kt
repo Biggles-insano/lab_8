@@ -26,7 +26,7 @@ fun LoginScreen(navController: NavController) {
         Button(
             onClick = {
                 navController.navigate("character_list") {
-                    popUpTo("login") { inclusive = true } // Esto eliminará el LoginScreen del backstack
+                    popUpTo("login") { inclusive = true } 
                 }
             },
             modifier = Modifier.padding(top = 16.dp)
